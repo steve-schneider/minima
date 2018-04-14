@@ -40,8 +40,9 @@ minima:
 # - about.html
 
 # Build settings
-theme: minima
+remote-theme: steve-schneider/minima-solarized
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-remote-theme
