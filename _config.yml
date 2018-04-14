@@ -41,6 +41,7 @@ minima:
 
 # Build settings
 remote-theme: steve-schneider/minima-solarized
+encoding: utf-8
 
 plugins:
  - jekyll-feed
