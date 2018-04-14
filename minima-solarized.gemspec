@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "minima-solarized"
-  spec.version       = "2.4.1"
+  spec.version       = "0.1"
   spec.authors       = ["Steve Schneider", "Joel Glovier"]
   spec.email         = ["steve@steveschneider.org"]
 
@@ -16,8 +16,9 @@ Gem::Specification.new do |spec|
     f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)
   end
 
-  spec.add_runtime_dependency "jekyll", "~> 3.5"
+  spec.add_runtime_dependency "jekyll", "~> 3.7.3"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
+  spec.add_runtime_dependency "jekyll-remote-theme"
   spec.add_development_dependency "bundler", "~> 1.15"
 end
