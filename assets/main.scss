@@ -1,12 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-{% if site.solarized.theme %}
-  {% if site.solarized.theme == "dark" %}
-    @import "minima-solarized-dark";
-  {% elsif site.solarized.theme == "light" %}
-    @import "minima-solarized-light";
-  {% endif %}
+{% if site.solarized.theme == "dark" or site.solarized.theme == "light" %}
+  @import "minima-solarized-{{site.solarized.theme}}";
 {% else %}
   @import "minima-solarized";
 {% endif %}
